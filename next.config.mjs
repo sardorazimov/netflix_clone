@@ -2,9 +2,11 @@
 const nextConfig = {
     images: {
         remotePatterns: [
-            {protocol: "https", hostname: "assets.nflxext.com"},
-            {protocol: "http", hostname: "*"}
-        ]
+                {protocol: "https", hostname: "*"},
+                {protocol: "http", hostname: "*"}
+            
+          ],
+        
     }
 };
 
